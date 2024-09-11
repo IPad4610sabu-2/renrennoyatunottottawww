@@ -1,7 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset='utf-8'>
+    
     <style>
       * {
         margin: 0;
@@ -38,8 +39,8 @@
       .button {
         background-color: #3498db;
         color: #fff;
-        border: 2px solid #fff; /* ボタンに白色の縁を追加 */
-        padding: 5px 10px; /* ボタンの内側の余白を調整 */
+        border: 2px solid #fff;
+        padding: 5px 10px;
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s;
@@ -64,7 +65,7 @@
     
     <script>
       setTimeout(function() {
-        document.getElementById('cookieMessage').style.display = 'block'; // 2秒後にメッセージボックスを表示
+        document.getElementById('cookieMessage').style.display = 'block';
       }, 2000);
 
       function redirectToHome() {
@@ -75,6 +76,7 @@
 
       function hideCookieMessage() {
         document.getElementById('cookieMessage').style.display = 'none';
+        return;
       }
     </script>
   </body>
