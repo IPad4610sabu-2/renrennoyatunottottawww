@@ -50,32 +50,32 @@
       }
     </style>
   </head>
-<body>
-  <iframe id="google-iframe" class="max-size-iframe" src="https://www.google.com/"></iframe>
+  <body>
+    <iframe id="google-iframe" class="max-size-iframe" src="https://www.google.com/"></iframe>
 
-  <div class="message-box" id="cookieMessage">
-    <p>よりよい体験を提供するため、当サイトでは Cookie を使用します。引き続き閲覧する場合、 Cookie使用に同意したものとみなされます。</p>
-    <div class="button-box">
-        <button class="button" onclick="goToHome()">許可する</button>
-        <button class="button" onclick="declineCookies()">拒否する</button>
+    <div class="message-box" id="cookieMessage">
+      <p>よりよい体験を提供するため、当サイトでは Cookie を使用します。引き続き閲覧する場合、 Cookie使用に同意したものとみなされます。</p>
+      
+      <div class="button-box">
+          <button class="button" onclick="goToHome()">許可する</button>
+          <button class="button" onclick="declineCookies()">拒否する</button>
+      </div>
     </div>
-  </div>
-
-<script>
-    setTimeout(function() {
+    
+    <script>
+      setTimeout(function() {
         document.getElementById('cookieMessage').style.display = 'block'; // 2秒後にメッセージボックスを表示
-    }, 2000);
+      }, 2000);
 
-    function goToHome() {
+      function redirectToHome() {
         document.cookie = "yuki=True; max-age=31536000; path=/";
         window.locayion.href = '/'
         return;
-    }
+      }
 
-    function declineCookies() {
-
+      function hideCookieMessage() {
         document.getElementById('cookieMessage').style.display = 'none';
-    }
-</script>
-</body>
+      }
+    </script>
+  </body>
 </html>
