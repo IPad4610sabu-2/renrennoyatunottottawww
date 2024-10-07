@@ -16,6 +16,7 @@ apis = [
     r"https://invidious.nerdvpn.de/",
     r"https://inv.nadeko.net/",
     r"https://invidious.privacyredirect.com/",
+    r"https://invi.susurrando.com/"
 ]
 url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip()
 version = "1.0"
