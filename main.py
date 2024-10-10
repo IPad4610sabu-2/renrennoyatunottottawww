@@ -23,7 +23,6 @@ apis = [
     r"https://invidious.vern.cc/",
     r"https://invidious.weblibre.org/",
     r"https://iv.nowhere.moe/",
-    r"https://y.com.sb/",
     r"https://yt.vern.cc/",
     r"https://yt.yoc.ovh/",
     r"https://youtube.076.ne.jp/",
