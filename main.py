@@ -24,7 +24,6 @@ apis = [
     r"https://invidious.weblibre.org/",
     r"https://iv.nowhere.moe/",
     r"https://yt.vern.cc/",
-    r"https://yt.yoc.ovh/",
     r"https://youtube.076.ne.jp/",
 ]
 url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip()
