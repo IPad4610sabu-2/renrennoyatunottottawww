@@ -13,15 +13,26 @@ max_api_wait_time = 6
 max_time = 4
 apis = [
     r"https://invidious.jing.rocks/",
-    r"https://invidious.nerdvpn.de/"
-    r"https://youtube.076.ne.jp/
-",
+    r"https://inv.riverside.rocks/",
+    r"https://inv.vern.cc/",
+    r"https://invi.susurrando.com/",
+    r"https://invidio.xamh.de/",
+    r"https://invidious.adminforge.de/",
+    r"https://invidious.protokolla.fi/",
+    r"https://invidious.snopyta.org/",
+    r"https://invidious.vern.cc/",
+    r"https://invidious.weblibre.org/",
+    r"https://iv.nowhere.moe/",
+    r"https://y.com.sb/",
+    r"https://yt.vern.cc/",
+    r"https://yt.yoc.ovh/",
+    r"https://youtube.076.ne.jp/",
 ]
 url = requests.get(r'https://raw.githubusercontent.com/mochidukiyukimi/yuki-youtube-instance/main/instance.txt').text.rstrip()
 version = "1.0"
 
 os.system("chmod 777 ./yukiverify")
-
+r"",
 apichannels = []
 apicomments = []
 [[apichannels.append(i),apicomments.append(i)] for i in apis]
