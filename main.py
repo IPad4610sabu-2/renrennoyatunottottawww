@@ -9,8 +9,8 @@ import subprocess
 from cache import cache
 
 
-max_api_wait_time = 6
-max_time = 4
+max_api_wait_time = 3
+max_time = 6
 apis = [
     r"https://invidious.jing.rocks/",
     r"https://inv.riverside.rocks/",
